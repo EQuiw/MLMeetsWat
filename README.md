@@ -1,4 +1,4 @@
-# MLMeetsWat
+# Machine Learning meets Digital Watermarking
 Related to the paper: *Forgotten Siblings: Unifying Attacks on Machine Learning and Digital Watermarking*,
 published at the *3rd IEEE European Symposium on Security and Privacy (Euro S&P 2018)*.
 
