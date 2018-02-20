@@ -1,0 +1,4 @@
+PKG_CPPFLAGS = -fPIC -I/usr/include/
+PKG_CXXFLAGS= $(SHLIB_OPENMP_CFLAGS) -fPIC -I/usr/include/
+PKG_LIBS= -lm $(SHLIB_OPENMP_CFLAGS) 
+#PKG_LIBS= `$(R_HOME)/bin/Rscript -e "Rcpp:::LdFlags()"` $(LAPACK_LIBS) $(BLAS_LIBS) $(FLIBS) -L/usr/lib/x86_64-pc-linux-gnu-library -lpng -lm -#L/usr/local/lib -lstdc++ 
